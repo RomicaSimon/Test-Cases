@@ -143,7 +143,7 @@ Application is open on "Cosul meu" page which consists one item and the user is 
 **Test Data:**
 * Email: radu.stefanut77@gmail.com
 * Parola: guru123
-* Product:  * Mulineta Jaxon Claris CT 200
+* Product: Mulineta Jaxon Claris CT 200
             * Quantity: 1
-            * Price 214 RON          
+            * Price: 214 RON          
 
