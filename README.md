@@ -17,4 +17,13 @@ Validate that user can register using valid data in the required fields
 User should be able to register successfully using valid data
 
 **Test data:**
-User: Raul & password: R123456
+* Nume: Stefan
+* Prenume: Radu
+* Telefon: 0785654429
+* Email: radu.stefanut@gmail.com
+* Adresa: Str. Vulturului nr 64
+* Oras: Buhusi
+* Cod postal: 605404
+* Judet: Bacau
+* Parola: guru123
+* Confirma parola: guru123
