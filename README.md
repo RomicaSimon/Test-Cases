@@ -89,7 +89,7 @@ Application is open on the main page and the user is already logged in.
 ----------
 
 **Description:**
-Validate that user is able to select the "French" language
+Validate that user is able to select the "French" language.
 
 **Steps to reproduce:**
 1. User goes to www.bigfish.ro and opens the app in the main page
@@ -97,9 +97,27 @@ Validate that user is able to select the "French" language
 3. User selects French language from dropdown list
 
 **Expected results:**
-User should notice the language of the website changed to french 
+User should notice that the language of the website changed to french. 
 
 -------
 
 **Description:**
+Validate that user is able to check the order history.
+
+**Preconditions:**
+Application is open on main page and the user is already logged in.
+
+**Steps to reproduce:**
+1. User hovers the cursor over the "Contul meu" field and clicks on the "Profil si istoric" button
+2. User clicks on "Istoric comenzi" button
+
+**Expected results:**
+User should be able to see order history with specific details: date, product name, order number, status,price, etc
+
+**Test Data:**
+* Email: radu.stefanut77@gmail.com
+* Parola: guru123
+* Products: 
+    * Mulineta Jaxon Claris CT 200
+    * Ochelari Drennan Aqua Sight
 
