@@ -4,7 +4,7 @@ Below there are some Test Case samples that I wrote while working on previous pr
 
 -------
 
-**1. Description:**
+**Description:**
 Validate that user can register using valid data in the required fields.
 
 **Steps to reproduce:**
@@ -30,7 +30,7 @@ User should be able to register successfully using valid data.
 
 -----------
 
-**2.Description:**
+**Description:**
 Validate that user is able to login with valid credentials.
 
 **Steps to reproduce:**
@@ -41,6 +41,25 @@ Validate that user is able to login with valid credentials.
 
 **Expected results:**
 User should be able to login successfully.
+
+**Test Data:**
+* Email: radu.stefanut77@gmail.com
+* Parola: guru123
+---------
+
+**Description:**
+Validate that user is able to logout.
+
+**Preconditions:**
+User is logged in.
+
+**Steps to reproduce:**
+1. User goes to www.bigfish.ro and opens the app in the main page
+2. User hovers the cursor over the "Contul meu" field and clicks on the "Logout" button
+
+**Expected results:**
+1. User should be able to logout successfully
+2. User should receive an confirmation message that he was successfully logout
 
 **Test Data:**
 * Email: radu.stefanut77@gmail.com
