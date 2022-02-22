@@ -13,7 +13,7 @@ Validate that user can register using valid data in the required fields
 3. User fills all the required fields with valid data
 4. User clicks on "Inregistrare" button
 
-**Expected result:**
+**Expected results:**
 User should be able to register successfully using valid data
 
 **Test Data:**
