@@ -112,7 +112,7 @@ Application is open on main page and the user is already logged in.
 2. User clicks on "Istoric comenzi" button
 
 **Expected results:**
-User should be able to see order history with specific details: date, product name, order number, status,price, etc
+User should be able to see order history with specific details: date, product name, order number, status,price, etc.
 
 **Test Data:**
 * Email: radu.stefanut77@gmail.com
@@ -120,4 +120,30 @@ User should be able to see order history with specific details: date, product na
 * Products: 
     * Mulineta Jaxon Claris CT 200
     * Ochelari Drennan Aqua Sight
+
+-----------
+
+**Description:**
+Validate that user can place an order.
+
+**Preconditions:**
+Application is open on "Cosul meu" page which consists one item and the user is already logged in.
+
+**Steps to reproduce:**
+1. User clicks on "Continua-Modalitati de transport" button
+2. User selects one delivery option and accepts terms and delivery conditions by clickink the specific button
+3. User clicks on "Continua-Date facturare" button
+4. User selects one payment option and clicks on "Continua" button
+5. User clicks on "Finalizare comanda" button
+
+**Expected results:**
+1. User should be able to place the order
+2. User should receive a confirmation message that the order was successfully registered
+
+**Test Data:**
+* Email: radu.stefanut77@gmail.com
+* Parola: guru123
+* Product:  * Mulineta Jaxon Claris CT 200
+            * Quantity: 1
+            * Price 214 RON          
 
