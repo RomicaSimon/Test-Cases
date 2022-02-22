@@ -146,5 +146,39 @@ Application is open on "Cosul meu" page which consists one item and the user is 
 * Product: 
    * Mulineta Jaxon Claris CT 200
    * Quantity: 1
-   * Price: 214 RON          
+   * Price: 214 RON  
+
+------------
+
+**Description:**
+Validate that website is secured.
+
+**Steps to reproduce:**
+User goes to www.bigfish.ro and opens the app in the main page.
+
+**Expected results:**
+User can see in the address bar the Url that consists scheme "https", which means secured.
+
+--------
+
+**Description:**
+Validate that user cannot update quantity for a product  from shopping cart with a non-number character.
+
+**Steps to reproduce:**
+1. User goes to www.bigfish.ro and opens the app in the main page
+2. User clicks on "Cosul meu" button
+3. User selects one item from the cart and enters a non-number character like "a" in the "Cantitate comandata" field
+4. User clicks on "Continua-Modalitati de transport" button
+
+**Expected results:** 
+1. User should not be able to update quantity
+2. User should receive a warning meesage like: "Please,enter only numeric characters"
+
+**Test Data:**
+* Email: radu.stefanut77@gmail.com
+* Parola: guru123
+* Product: 
+   * Mulineta Jaxon Claris CT 200
+   * Quantity: 2
+   * Update quantity: a 
 
