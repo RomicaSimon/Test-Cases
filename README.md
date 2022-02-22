@@ -1,11 +1,11 @@
 # Test-Cases 
 
-Below there are some Test Case samples that I wrote while working on previous projects
+Below there are some Test Case samples that I wrote while working on previous projects.
 
 -------
 
-**Description:**
-Validate that user can register using valid data in the required fields
+**1. Description:**
+Validate that user can register using valid data in the required fields.
 
 **Steps to reproduce:**
 1. User goes to www.bigfish.ro and opens the app in the main page
@@ -14,7 +14,7 @@ Validate that user can register using valid data in the required fields
 4. User clicks on "Inregistrare" button
 
 **Expected results:**
-User should be able to register successfully using valid data
+User should be able to register successfully using valid data.
 
 **Test Data:**
 * Nume: Stefan
@@ -30,8 +30,8 @@ User should be able to register successfully using valid data
 
 -----------
 
-**Description:**
-Validate that user is able to login with valid credentials
+**2.Description:**
+Validate that user is able to login with valid credentials.
 
 **Steps to reproduce:**
 1. User goes to www.bigfish.ro and opens the app in the main page
@@ -40,7 +40,7 @@ Validate that user is able to login with valid credentials
 4. User clicks on "Conectare" button
 
 **Expected results:**
-User should be able to login successfully
+User should be able to login successfully.
 
 **Test Data:**
 * Email: radu.stefanut77@gmail.com
