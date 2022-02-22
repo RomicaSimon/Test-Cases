@@ -1,6 +1,6 @@
 # Test-Cases 
 
-Below there are some Test Case samples that I wrote while working on my specific graduation project at the Informal School of IT applying the techniques and testing types learned on the www.bigfish.ro application.
+Below there are some Test Case samples that I wrote while working on my specific graduation project at the Informal School of IT applying the techniques and testing types learned, on the www.bigfish.ro application.
 
 -------
 
@@ -81,7 +81,25 @@ Application is open on the main page and the user is already logged in.
 1. User should see the selected product added to the cart with correct details: name,price,quantity of 1
 2. User should see the cart total price updated with the right values
 
-**TestData:**
+**Test Data:**
 * Email: radu.stefanut77@gmail.com
 * Parola: guru123
 * Product: Mulineta Jaxon Claris CT 200
+
+----------
+
+**Description:**
+Validate that user is able to select the "French" language
+
+**Steps to reproduce:**
+1. User goes to www.bigfish.ro and opens the app in the main page
+2. User clicks on the "Alege limba" dropdown button
+3. User selects French language from dropdown list
+
+**Expected results:**
+User should notice the language of the website changed to french 
+
+-------
+
+**Description:**
+
