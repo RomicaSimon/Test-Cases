@@ -1,6 +1,6 @@
 # Test-Cases 
 
-Below there are some Test Case samples that I wrote while working on my specific graduation project at the Informal School of IT applying the techniques and testing types learned, on the www.bigfish.ro application.
+Below there are some Test Case samples that I wrote while working on my graduation project at the Informal School of IT applying the techniques and testing types learned, on the www.bigfish.ro application. 
 
 -------
 
